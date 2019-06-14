@@ -4,7 +4,7 @@ def startGame(self):
     numberSet = set()
     answer = 0
 
-    def init(self):
+    def init():
         num1 = randint(2, 9)
         num2 = randint(2, 9)
         self.answer = num1 * num2
@@ -31,5 +31,5 @@ def startGame(self):
         else:
             print("오답입니다. 다시 입력하세요.")
             answerCheck()
-    init(self)
+    init()
 startGame(startGame)
